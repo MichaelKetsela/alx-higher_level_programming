@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -9,21 +8,21 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *turtle, *hare;
+	listint_t *t, *h;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
 
-	turtle = list->next;
-	hare = list->next->next;
+	t = list->next;
+	h = list->next->next;
 
-	while (turtle && hare && hare->next)
+	while (t && h && h->next)
 	{
-		if (turtle == hare)
+		if (t == h)
 			return (1);
 
-		turtle = turtle->next;
-		hare = hare->next->next;
+		t = t->next;
+		h = h->next->next;
 	}
 
 	return (0);
