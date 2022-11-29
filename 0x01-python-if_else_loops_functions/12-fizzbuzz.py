@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def fizzbuzz():
     for i in range(1, 101):
-        if i == 99:
-            print("FizzBuzz $")
+        if i == 100:
+            print("$")
         elif i % 3 == 0:
             print("Fizz ", end="")
         elif i % 5 == 0:
