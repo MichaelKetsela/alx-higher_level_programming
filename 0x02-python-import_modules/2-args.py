@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
-l = len(sys.argv)
+l = len(sys.argv) -1
 if l == 0:
     print("{} arguments.".format(l))
 else:
