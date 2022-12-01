@@ -6,4 +6,4 @@ if l == 0:
 else:
     print("{} arguments:".format(l))
     for i in range(l):
-        print("{}: {}".format(i, sys.argv[i + 1])
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))
