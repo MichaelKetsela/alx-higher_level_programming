@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""Define a MagicClass that does exactly the same as the following python bytecode."""
+"""Define a Class that does the same as the following python bytecode."""
 
 
 import math
+
 
 class MagicClass:
     """Represent a circle."""
