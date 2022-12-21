@@ -3,6 +3,8 @@
 
 
 class Square:
+    """Represent a square."""
+
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a new square.
 
@@ -17,6 +19,7 @@ class Square:
     def size(self):
         """set the current size of the square."""
         return(self.__self)
+
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
@@ -24,13 +27,16 @@ class Square:
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+
     @property
     def postion(self):
         """set the current position of the square."""
         return(self.__postion)
+
     @postion.setter
     def area(self):
         return(self.__size * self.__size)
+
     def my_print(self):
         if self.__size == 0:
             print(" ")
