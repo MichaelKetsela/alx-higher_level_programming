@@ -277,6 +277,7 @@ guillaume@ubuntu:~/$
 ```
 ## Task 10
 
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
@@ -312,6 +313,7 @@ guillaume@ubuntu:~/$
 ```
 ## Task 11
 
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump of hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all shows contained in the database hbtn_0d_tvshows.
@@ -350,6 +352,7 @@ guillaume@ubuntu:~/$
 ```
 ## Task 12
 
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all shows contained in hbtn_0d_tvshows without a genre linked.
@@ -368,6 +371,7 @@ guillaume@ubuntu:~/$
 ```
 ## Task 13
 
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each.
@@ -394,7 +398,8 @@ Fantasy 1
 guillaume@ubuntu:~/$ 
 ```
 ## Task 14
-  
+
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that uses the hbtn_0d_tvshows database to lists all genres of the show Dexter.
@@ -417,6 +422,7 @@ guillaume@ubuntu:~/$
 ```
 ## Task 15
 
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all Comedy shows in the database hbtn_0d_tvshows.
@@ -437,7 +443,8 @@ The Last Man on Earth
 guillaume@ubuntu:~/$
 ```
 ## Task 16
-  
+
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows.
@@ -475,7 +482,8 @@ The Last Man on Earth   Drama
 guillaume@ubuntu:~/$ 
 ```
 ## Task 17
-  
+
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
@@ -495,7 +503,8 @@ Fantasy
 guillaume@ubuntu:~/$ 
 ```
 ## Task 18
-  
+
+Import the database dump from hbtn_0d_tvshows to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql)
 Import the database dump from hbtn_0d_tvshows to your MySQL server:
 
 Write a script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows.
@@ -518,7 +527,8 @@ House
 guillaume@ubuntu:~/$ 
 ```
 ## Task 19
- 
+
+Import the database hbtn_0d_tvshows_rate dump to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows_rate.sql)
 Import the database hbtn_0d_tvshows_rate dump to your MySQL server:
 
 Write a script that lists all shows from hbtn_0d_tvshows_rate by their rating.
@@ -544,7 +554,8 @@ New Girl    0
 guillaume@ubuntu:~/$ 
 ```
 ## Task 20
-  
+
+Import the database hbtn_0d_tvshows_rate dump to your MySQL server: [download](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows_rate.sql)
 Import the database dump from hbtn_0d_tvshows_rate to your MySQL server:
 
 Write a script that lists all genres in the database hbtn_0d_tvshows_rate by their rating.
