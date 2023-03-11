@@ -34,6 +34,7 @@ mysql>
 mysql> quit
 Bye
 $
+```
 ## Use “container-on-demand” to run MySQL
 
 In the container, credentials are root/root
