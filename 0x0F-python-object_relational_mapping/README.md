@@ -1,4 +1,4 @@
-## Install " MySQLdb " module version ' 2.0.x '
+## Install ` MySQLdb ` module version ' 2.0.x '
 ```
 $ sudo apt-get install python3-dev
 $ sudo apt-get install libmysqlclient-dev
