@@ -1,4 +1,4 @@
-## Install ` MySQLdb ` module version ' 2.0.x '
+## Install ` MySQLdb ` module version ` 2.0.x `
 ```
 $ sudo apt-get install python3-dev
 $ sudo apt-get install libmysqlclient-dev
@@ -10,7 +10,7 @@ $ python3
 >>> MySQLdb.version_info 
 (2, 0, 3, 'final', 0)
 ```
-## Insall ' SQLAlchemy ' module version ' 1.4.x '
+## Insall ` SQLAlchemy ` module version ` 1.4.x `
 ```
 $ sudo pip3 install SQLAlchemy
 ...
