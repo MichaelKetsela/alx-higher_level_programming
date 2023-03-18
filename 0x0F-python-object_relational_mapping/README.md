@@ -30,7 +30,7 @@ Write a script that lists all states from the database hbtn_0e_0_usa:
 * Results must be sorted in ascending order by states.id
 * Results must be displayed as they are in the example below
 * Your code should not be executed when imported
-* 
+
 ```
 guillaume@ubuntu:~/0x0F$ cat 0-select_states.sql
 -- Create states table in hbtn_0e_0_usa with some data
