@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-contains the class definition of a State
+contains the class definition of a State and an instance Base
 """
 
 import sqlalchemy
@@ -12,7 +12,7 @@ Base = declarative_base()
 
 
 class State(Base):
-    """Repesentation of a state"""
+    """Representation of a state"""
     __tablename__ = 'states'
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
