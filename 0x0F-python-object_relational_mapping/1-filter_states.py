@@ -12,6 +12,6 @@ if __name__ == "__main__":
                          passwd=argv[2], db=argv[3], charset="utf8")
     db_cursor = db_connect.cursor()
     db_cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
-    [print(row) for row in db_cursor.fetchall() if row[1][0] == 'N']
+    [print(row) for row in db_cursor.fetchall() if row[1][0] == "N"]
     db_cursor.close()
     db_connect.close()
