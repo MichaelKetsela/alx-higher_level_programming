@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-lists all State objects from a database
+lists all State objects from a database hbtn_0e_6_usa
 """
 
 import sqlalchemy
@@ -16,6 +16,7 @@ if __name__ == "__main__":
     Base.metadata.create_all(eng)
     Session = sessionmaker(bind=eng)
     session = Session()
+
     for state in session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
     session.close()

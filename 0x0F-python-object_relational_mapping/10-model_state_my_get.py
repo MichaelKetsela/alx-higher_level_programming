@@ -16,9 +16,10 @@ if __name__ == "__main__":
     Base.metadata.create_all(eng)
     Session = sessionmaker(bind=eng)
     session = Session()
+
     state = session.query(State).filter_by(name=argv[4]).first()
-    if state is not None:
-        print(str(state.id))
-    else:
+    if state is None:
         print("Not found")
+    else:
+        print(str(state.id))
     session.close()
