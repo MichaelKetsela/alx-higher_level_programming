@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 Script the takes in URL, sends a request to the URL
 and displays the body of the response
 """
